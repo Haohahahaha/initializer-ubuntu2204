@@ -37,6 +37,7 @@ export NVBOARD_HOME=/home/hz/Documents/Repos/ysyx-workbench/nvboard
 
 alias l=\"pwd && tree -hL 2\"" >> ~/.zshrc
 
-sudo cp /usr/include/SDL2/* /usr/include/
 
+sudo cp /usr/include/SDL2/* /usr/include/
+sudo cp /usr/include/SDL/* /usr/include/
 
