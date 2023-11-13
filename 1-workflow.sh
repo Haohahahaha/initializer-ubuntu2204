@@ -23,4 +23,13 @@ sudo apt-get install -y libreadline-dev    # a library used later
 sudo apt-get install -y libsdl2-dev        # a library used later
 sudo apt-get install -y llvm llvm-dev      # llvm project, which contains libraries used later
 
+echo "export NEMU_HOME=/home/hz/Documents/Repos/ysyx-workbench/nemu
+export AM_HOME=/home/hz/Documents/Repos/ysyx-workbench/abstract-machine
+export NPC_HOME=/home/hz/Documents/Repos/ysyx-workbench/npc
+export NVBOARD_HOME=/home/hz/Documents/Repos/ysyx-workbench/nvboard
+
+alias l=\"pwd && tree -hL 2\"" >> ~/.zshrc
+
+sudo cp /usr/include/SDL2/* /usr/include/
+
 
