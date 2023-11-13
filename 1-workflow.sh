@@ -23,6 +23,13 @@ sudo apt-get install -y libreadline-dev    # a library used later
 sudo apt-get install -y libsdl2-dev        # a library used later
 sudo apt-get install -y llvm llvm-dev      # llvm project, which contains libraries used later
 
+# install SDL lib
+sudo apt-get install -y libsdl1.2-dev
+sudo apt-get install -y libsdl-image1.2-dev
+sudo apt-get install -y libsdl-ttf2.0-dev
+sudo apt-get install -y libsdl-gfx1.2-dev
+sudo apt-get install -y libsdl-mixer1.2-dev
+
 echo "export NEMU_HOME=/home/hz/Documents/Repos/ysyx-workbench/nemu
 export AM_HOME=/home/hz/Documents/Repos/ysyx-workbench/abstract-machine
 export NPC_HOME=/home/hz/Documents/Repos/ysyx-workbench/npc
